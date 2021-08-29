@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-26T10:30:17 IST" name="Default suite" finished-at="2021-08-26T10:30:49 IST" duration-ms="31390">
+    <groups>
+    </groups>
+    <test started-at="2021-08-26T10:30:17 IST" name="Default test" finished-at="2021-08-26T10:30:49 IST" duration-ms="31390">
+      <class name="com.vtiger.comcast.oppourtinitytest.TC1_createOppourtinity">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.vtiger.comcast.oppourtinitytest.TC1_createOppourtinity@647e447]" started-at="2021-08-26T10:30:17 IST" name="configBS" finished-at="2021-08-26T10:30:17 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.vtiger.comcast.oppourtinitytest.TC1_createOppourtinity@647e447]" started-at="2021-08-26T10:30:17 IST" name="configBC" finished-at="2021-08-26T10:30:19 IST" duration-ms="2113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.vtiger.comcast.oppourtinitytest.TC1_createOppourtinity@647e447]" started-at="2021-08-26T10:30:19 IST" name="configBM" finished-at="2021-08-26T10:30:26 IST" duration-ms="7154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="TC1_createOppourtinity()[pri:0, instance:com.vtiger.comcast.oppourtinitytest.TC1_createOppourtinity@647e447]" started-at="2021-08-26T10:30:26 IST" name="TC1_createOppourtinity" finished-at="2021-08-26T10:30:49 IST" duration-ms="22034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_createOppourtinity -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.vtiger.comcast.oppourtinitytest.TC1_createOppourtinity@647e447]" started-at="2021-08-26T10:30:49 IST" name="configAM" finished-at="2021-08-26T10:30:49 IST" duration-ms="6" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:65)
+at com.vtiger.comcast.genericUtility.WebDriverUtility.mouseOver(WebDriverUtility.java:103)
+at com.vtiger.comcast.pomrepositylib.Homepage.Logout(Homepage.java:53)
+at com.vtiger.comcast.genericUtility.BaseClass.configAM(BaseClass.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.vtiger.comcast.oppourtinitytest.TC1_createOppourtinity@647e447]" started-at="2021-08-26T10:30:49 IST" name="configBM" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1629954049037" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="TC2_CreateOppourtinityandclickcancel()[pri:0, instance:com.vtiger.comcast.oppourtinitytest.TC1_createOppourtinity@647e447]" started-at="2021-08-26T10:30:49 IST" name="TC2_CreateOppourtinityandclickcancel" finished-at="2021-08-26T10:30:49 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:65)
+at com.vtiger.comcast.genericUtility.WebDriverUtility.mouseOver(WebDriverUtility.java:103)
+at com.vtiger.comcast.pomrepositylib.Homepage.Logout(Homepage.java:53)
+at com.vtiger.comcast.genericUtility.BaseClass.configAM(BaseClass.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_CreateOppourtinityandclickcancel -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.vtiger.comcast.oppourtinitytest.TC1_createOppourtinity@647e447]" started-at="2021-08-26T10:30:49 IST" name="configAM" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1629954049047" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.vtiger.comcast.oppourtinitytest.TC1_createOppourtinity@647e447]" started-at="2021-08-26T10:30:49 IST" name="configAC" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1629954049050" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.vtiger.comcast.oppourtinitytest.TC1_createOppourtinity@647e447]" started-at="2021-08-26T10:30:49 IST" name="configAS" finished-at="2021-08-26T10:30:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.vtiger.comcast.oppourtinitytest.TC1_createOppourtinity -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
